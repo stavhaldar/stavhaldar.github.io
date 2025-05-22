@@ -1,0 +1,7 @@
+title: "Stav Haldar — Publications & Talks"
+theme:
+  name: minimal
+nav:
+  - Home: index.md
+  - Publications: publications.md
+  - Talks: talks.md
