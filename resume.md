@@ -6,8 +6,8 @@
 *Ph.D. in Physics with 5+ years of research experience in simulations, modelling and theoretical analysis of quantum networks. Expertise in developing both physical layer and architecture level simulators for scalable quantum-networks using Python, with reinforcement-learning-driven policy optimization. Collaborations with experimental groups for implementation of quantum networking prototypes and testbeds.*
 
 ## Education:
-o  Ph.D., Physics, 2019 – 2024, Louisiana State University. [Thesis: “Design of long-distance entanglement distribution protocols for quantum networks.”](https://repository.lsu.edu/cgi/viewcontent.cgi?article=7640&context=gradschool_dissertations)  
-o  M.Sc., Physics (Research Fellow), 2016 – 2019, Harish-Chandra Research Institute, India.  
+o  Ph.D. Physics, 2019 – 2024, Louisiana State University. [Thesis: “Design of long-distance entanglement distribution protocols for quantum networks.”](https://repository.lsu.edu/cgi/viewcontent.cgi?article=7640&context=gradschool_dissertations)  
+o  M.Sc. Physics (Research Fellow), 2016 – 2019, Harish-Chandra Research Institute, India.  
 o  B.Sc., 2013 – 2016, Birla Institute of Technology, Mesra.
 
 ## Relevant Experience
@@ -22,7 +22,7 @@ o  B.Sc., 2013 – 2016, Birla Institute of Technology, Mesra.
 -  Formulated policies for **multiplexed** quantum networks. **First implementation of policies designed to reduce classical communication costs**. Introduced quasi-local policies for distillation and swapping, and through simulations showed **order of magnitude improvement in entanglement rates** compared to fully local policies. Results published in Communications Physics (Nature).
 
 ## Main Projects  
-**[Link to developed code](https://github.com/stavhaldar/Quantum-Network-Policies):**   
+**[Link to developed code](https://github.com/stavhaldar/Quantum-Network-Policies)**   
 -  **Reinforcement learning for quantum network policies**: Monte Carlo simulator with Q-learning policy optimizer. Rate and fidelity figures of merit for different hardware parameters can be obtained. Benchmarking against Nested and SWAP-ASAP policies. Concatenation of policies for longer chains. Efficient state-space representation, warm-start, and parallel agents for faster learning.  
 -  **Policies for multiplexed repeater chains**: Simulation of quasi-local and fully local policies for multiplexed chains. Incorporation of classical communication costs of implementing policies. Comparison of different entanglement distillation policies. New distillation policies and identification of parameter regimes where different policies are optimal.  
 -  **Hybrid encoded repeater chain**: Modeling and simulation of a repeater chain with two kinds of repeaters, pure – using one memory platform (either high rate or high coherence time and high-fidelity gates) and/or hybrid – using two platforms (high rate from 1, high fidelity from other). Error correction using encoded Bell states with the 3-qubit repetition code.  
